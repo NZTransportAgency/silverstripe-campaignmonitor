@@ -1,5 +1,5 @@
 {
-    "name": "tractorcow/silverstripe-campaignmonitor",
+    "name": "NZTransportAgency/silverstripe-campaignmonitor",
     "description": "Simple implementation of the campaign monitor API within Silverstripe",
     "type": "silverstripe-module",
     "keywords": ["silverstripe", "campaign monitor"],
@@ -10,7 +10,7 @@
         }
     ],
     "support": {
-        "issues": "http://github.com/tractorcow/silverstripe-campaignmonitor/issues"
+        "issues": "http://github.com/NZTransportAgency/silverstripe-campaignmonitor/issues"
     },
     "require": {
         "silverstripe/framework": "3.*",

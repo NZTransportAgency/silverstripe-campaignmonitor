@@ -4,7 +4,7 @@ Simple implementation of the campaign monitor API within Silverstripe
 
 ## Credits and Authors
 
- * Damian Mooyman - <https://github.com/tractorcow/silverstripe-campaignmonitor/>
+ * Damian Mooyman - <https://github.com/NZTransportAgency/silverstripe-campaignmonitor/>
 
 ## License
 
@@ -18,7 +18,7 @@ Simple implementation of the campaign monitor API within Silverstripe
 
 ## Installation instructions
 
-composer require "tractorcow/silverstripe-campaignmonitor": "3.0.*@dev"
+composer require "NZTransportAgency/silverstripe-campaignmonitor": "3.0.*@dev"
 
 composer require "campaignmonitor/createsend-php": "v2.5.2"
 
@@ -75,7 +75,7 @@ Handling subscription details from a form submission
 
 	protected function addUserToList($data, $list) {
 		if(empty($list)) return;
-		
+
 		// Create subscriber
 		$fields = array(
 			'EmailAddress' => $data['Email'],
@@ -98,10 +98,10 @@ Handling subscription details from a form submission
 
 ### Get a list of sent Campaigns
 
-Get a list of all sent campaigns for a client including from name, from email, 
+Get a list of all sent campaigns for a client including from name, from email,
 reply to email, web version URL, ID, subject, name, date sent, and the total number of recipients.
 
-See the [Campaign Monitor API documentation] (https://www.campaignmonitor.com/api/clients/#sent_campaigns) 
+See the [Campaign Monitor API documentation] (https://www.campaignmonitor.com/api/clients/#sent_campaigns)
 for more information.
 
 
